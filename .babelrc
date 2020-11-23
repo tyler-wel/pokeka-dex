@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "test": "./__tests__",
+        "assets": "./src/assets",
+        "components": "./src/components",
+        "atoms": "./src/components/atoms",
+        "molecules": "./src/components/molecules",
+        "organisms": "./src/components/organisms",
+        "screens": "./src/screens",
+        "services": "./src/services",
+        "styles": "./src/styles",
+        "utils": "./src/utils"
+      }
+    }]
+  ]
+}
